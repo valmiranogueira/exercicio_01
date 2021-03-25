@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function clonaRepo()
+clonaRepo()
 {
   # Checking function arguments
   if test -z "$1" -o -z "$2" -o -z "$3" ; then
